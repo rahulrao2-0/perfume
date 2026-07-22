@@ -1,4 +1,4 @@
-const API_BASE_URL = "http://ec2-15-207-254-178.ap-south-1.compute.amazonaws.com/AllProducts";
+const API_BASE_URL = "http://ec2-15-207-254-178.ap-south-1.compute.amazonaws.com";
 
 /**
  * Fetch all products from backend (populated with category ObjectId reference)
