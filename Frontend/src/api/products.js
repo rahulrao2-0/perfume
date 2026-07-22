@@ -5,7 +5,7 @@ const API_BASE_URL = "http://ec2-15-207-254-178.ap-south-1.compute.amazonaws.com
  */
 export async function getAllProducts() {
   try {
-    const response = await fetch(`${API_BASE_URL}/AllProducts/`);
+    const response = await fetch(`${API_BASE_URL}/AllProducts`);
     if (!response.ok) {
       throw new Error(`Failed to fetch products: ${response.statusText}`);
     }
