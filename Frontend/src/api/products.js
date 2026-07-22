@@ -1,4 +1,5 @@
-const API_BASE_URL = "http://ec2-15-207-254-178.ap-south-1.compute.amazonaws.com";
+const API_BASE_URL = "http://ec2-15-207-254-178.ap-south-1.compute.amazonaws.com/api";
+// const API_BASE_URL = "http://localhost:3000/api"; // Local backend URL
 
 /**
  * Fetch all products from backend (populated with category ObjectId reference)
